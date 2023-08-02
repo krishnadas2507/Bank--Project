@@ -1,0 +1,244 @@
+.content-req {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.foot-content-req{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.foot-contents-req{
+  margin-top: 10%;
+  border: 1px  #ddd;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2%;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+.inputs-fifth{
+  height: 20vh;
+  width: 90%;
+}
+.inputs-sixth{
+  height: 20vh;
+  width: 90%;
+}
+.file-input{
+  border: 1px solid black;
+  width: 90%;
+  height: 5vh;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+.head1{
+    position: relative;
+}
+.head1 ::before {
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #333;
+  }
+  .head1 h1 {
+    margin: 0;
+    font-size: 25px;
+    color: #333;
+  }
+
+  .header-req {
+    margin-left: 1%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+.head2-req button{
+    border: none;
+  }
+
+.contents-req{
+    border: 1px  #ddd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2%;
+ }
+
+ .question {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.question-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.question-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.radio-options {
+  display: flex;
+  gap: 10px;
+}
+
+.body{
+    width:73%;
+    margin-left: 13%;
+
+}
+.container-req{
+    overflow-y: scroll;
+    height: 84vh;
+}
+.horizontal-line-req{
+    border: none; 
+    height: 1px; 
+    background-color: #ccc; 
+    margin-top: 2%;
+
+}
+.procced-btn{
+  background-color: rgb(82, 121, 250);
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.procced{
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-end;
+}
+.head2-req{
+    transform: translateY(-70%);
+}
+.inputs{
+    text-decoration: none;
+    width:90%;
+    height: 5vh;
+}
+.input-select{
+    width: 90%;
+    height: 5vh;
+}
+.input:focus {
+    border-color: rgb(102, 212, 249);
+  }
+  .h2-req{
+    color: darkgrey;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+  .th-req{
+    text-align: center;
+  }
+  .req-box{
+    margin-left: 4%;
+    width: 90%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    padding: 1%;
+    border:2px solid lightskyblue;
+  }
+  .req-box-file{
+    padding-top: 5px;
+    display: flex;
+    gap: 16%;
+  }
+  .req-box-file1{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border: 1px solid lightblue;
+    padding-bottom: 2px;
+    width: 23%;
+  }
+  ul{
+    color: crimson;
+    padding-top: 1%;
+    margin-left: 2%;
+  }
+  .req-box-btn button{
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8%;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(66, 107, 241);
+  }
+  .req-box-btn{
+    width: 7%;
+    
+  }
+  .req-filename{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    margin-left: 2%;
+    margin-top: 5px;
+  }
+
+  .delete-button {
+    background:none;
+    width: 3%;
+    height: 4vh;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+  }
+  .adddata {
+    color: white;
+    background-color: #333;
+    height: 4vh;
+    width: 700%;
+  }
+
+  .input-todo{
+    width: 75%;
+  }
+  .todo-div{
+    display: flex;
+  }
+  .list{
+    color: rgb(166, 97, 97);
+    font-size: 20px;
+  }
+  .submit-btn{
+    background-color: rgb(82, 121, 250);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 11%;
+    height: 5vh;
+    width: 18%;
+    margin-right: 3%;
+  }
+  .submit{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .list-items{
+    display: flex;
+    gap: 10%;
+  }
+.list-items-icons{
+  margin-top: 5px;
+}

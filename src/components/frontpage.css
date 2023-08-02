@@ -1,0 +1,155 @@
+
+  
+  .container {
+    margin-left: 12%;
+    min-height: 100vh;
+  }
+  
+  .main {
+    margin-top: 1%;
+    border: 1px  #ddd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    width: 85%;
+  }
+  
+  
+  .header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+  }
+  .head2-btn {
+    margin-right: 15%;
+    transform: translateY(85%);
+  }
+  
+  .head1 {
+    position: relative;
+  }
+  
+  .head1::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #333;
+  }
+  
+  .head1 h1 {
+    margin: 0;
+    font-size: 25px;
+    color: #333;
+  }
+  
+  .head2-btn button {
+    background-color: rgb(82, 121, 250);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.create-btn a{
+  text-decoration: none;
+  color:white;
+}
+
+.inprogress{
+  
+  padding: 10px 20px 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.complete{
+  padding: 10px 20px 10px 15px;
+  border: none;
+
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.inprogress:focus{
+  color: white;
+  background-color:  rgb(82, 121, 250);
+}
+.complete:focus{
+  color: white;
+  background-color:  rgb(82, 121, 250);
+}
+
+.table-fr{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+  .complete-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition on hover */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  th {
+    padding: 8px;
+    border-bottom: 2px solid #040000;
+    border-right: 1px solid #ccc;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  th.status-heading {
+    text-align: center;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  .search-box {
+    margin-top: 1%;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .search-box label {
+    margin-top: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .search-box input {
+    padding: 1%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  hr {
+    border: none; 
+    height: 1px; 
+    background-color: #ccc; 
+  }
+  
